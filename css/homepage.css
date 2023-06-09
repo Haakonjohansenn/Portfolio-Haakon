@@ -199,23 +199,24 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
+  align-items: center;
   overflow: hidden;
-  margin-top: 50px; /* Ensure the container clips any overflow */
+  margin-top: 50px; 
 }
 
 .discovertu-img-container {
-  width: 260px; /* Set the desired width for the container */
-  height: 260px; /* Set the desired height for the container */
+  width: 260px; 
+  height: 260px; 
   background-image: linear-gradient(rgba(200, 191, 191, 0.3), rgb(146, 119, 119)), url(/images/Discovertu2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 25px;
-  transition: transform 0.3s; /* Add a transition effect */
+  transition: transform 0.3s;
 }
 
 .card-container:hover .discovertu-img-container {
-  transform: scale(1.05); /* Enlarge the image slightly on hover */
+  transform: scale(1.05);
 }
 
 .discovertu-img-container:before {
@@ -248,9 +249,13 @@ header {
 .card-container h2 {
   font-size: 16px;
   font-family: var(--secondary-font);
-  margin-top: 60px;
+  margin-top: 50px;
   color: var(--white);
   text-align: center;
+}
+
+#projects-section a {
+  text-decoration: none;
 }
 
 .card-container:hover h2 {
@@ -288,6 +293,10 @@ header {
   overflow: hidden;
 }
 
+.github-button {
+  margin-top: 5px;
+}
+
 .visit-button::before {
   content: '';
   position: absolute;
@@ -312,17 +321,19 @@ header {
 .visit-button-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .community-science-museum-img-container {
-  width: 260px; /* Set the desired width for the container */
-  height: 260px; /* Set the desired height for the container */
+  width: 260px; 
+  height: 260px; 
   background-image: linear-gradient(rgba(156, 132, 28, 0.8), rgba(255, 255, 255, 0.4), rgba(36, 104, 66, 0.4)), url(/images/Community-science-museum.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 25px;
-  transition: transform 0.3s; /* Add a transition effect */
+  transition: transform 0.3s; 
 }
 
 .community-science-museum-img-container:before {
@@ -344,7 +355,7 @@ header {
 }
 
 .card-container:hover .community-science-museum-img-container {
-  transform: scale(1.05); /* Enlarge the image slightly on hover */
+  transform: scale(1.05); 
 }
 
 .community-science-museum-img-container h2,
@@ -359,14 +370,14 @@ header {
 }
 
 .rainydays-img-container {
-  width: 260px; /* Set the desired width for the container */
-  height: 260px; /* Set the desired height for the container */
+  width: 260px;
+  height: 260px; 
   background-image: linear-gradient(rgba(134, 68, 14, 0.8), rgba(197, 180, 180, 0.4), rgba(36, 104, 66, 0.4)), url(/images/Rainydays.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 25px;
-  transition: transform 0.3s; /* Add a transition effect */
+  transition: transform 0.3s;
 }
 
 .rainydays-img-container:before {
@@ -388,7 +399,7 @@ header {
 }
 
 .card-container:hover .rainydays-img-container {
-  transform: scale(1.05); /* Enlarge the image slightly on hover */
+  transform: scale(1.05); 
 }
 
 .rainydays-container h2,
@@ -472,11 +483,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .contact-link {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .contact-link a {
@@ -595,14 +606,14 @@ header {
   }
 
   .discovertu-img-container {
-    width: 350px; /* Set the desired width for the container */
-    height: 350px; /* Set the desired height for the container */
+    width: 350px; 
+    height: 350px; 
     background-image: linear-gradient(rgba(200, 191, 191, 0.3), rgb(146, 119, 119)), url(/images/Discovertu2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 25px;
-    transition: transform 0.3s; /* Add a transition effect */
+    transition: transform 0.3s; 
   }
 
   .card-container p {
@@ -623,29 +634,29 @@ header {
   }
 
   .community-science-museum-img-container {
-    width: 350px; /* Set the desired width for the container */
-    height: 350px; /* Set the desired height for the container */
+    width: 350px; 
+    height: 350px; 
     background-image: linear-gradient(rgba(156, 132, 28, 0.8), rgba(255, 255, 255, 0.4), rgba(36, 104, 66, 0.4)), url(/images/Community-science-museum.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 25px;
-    transition: transform 0.3s; /* Add a transition effect */
+    transition: transform 0.3s; 
   }
 
   .rainydays-img-container {
-    width: 350px; /* Set the desired width for the container */
-    height: 350px; /* Set the desired height for the container */
+    width: 350px; 
+    height: 350px; 
     background-image: linear-gradient(rgba(134, 68, 14, 0.8), rgba(197, 180, 180, 0.4), rgba(36, 104, 66, 0.4)), url(/images/Rainydays.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 25px;
-    transition: transform 0.3s; /* Add a transition effect */
+    transition: transform 0.3s; 
   }
 
   .card-container {
-    margin-top: 70px; /* Ensure the container clips any overflow */
+    margin-top: 70px; 
   }
 }
 
@@ -705,14 +716,14 @@ header {
   }
 
   .discovertu-img-container {
-    width: 400px; /* Set the desired width for the container */
-    height: 400px; /* Set the desired height for the container */
+    width: 400px; 
+    height: 400px; 
     background-image: linear-gradient(rgba(200, 191, 191, 0.3), rgb(146, 119, 119)), url(/images/Discovertu2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 25px;
-    transition: transform 0.3s; /* Add a transition effect */
+    transition: transform 0.3s; 
   }
 
   .card-container p {
@@ -733,28 +744,28 @@ header {
   }
 
   .community-science-museum-img-container {
-    width: 400px; /* Set the desired width for the container */
-    height: 400px; /* Set the desired height for the container */
+    width: 400px; 
+    height: 400px; 
     background-image: linear-gradient(rgba(156, 132, 28, 0.8), rgba(255, 255, 255, 0.4), rgba(36, 104, 66, 0.4)), url(/images/Community-science-museum.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 25px;
-    transition: transform 0.3s; /* Add a transition effect */
+    transition: transform 0.3s; 
   }
 
   .rainydays-img-container {
-    width: 400px; /* Set the desired width for the container */
-    height: 400px; /* Set the desired height for the container */
+    width: 400px; 
+    height: 400px; 
     background-image: linear-gradient(rgba(134, 68, 14, 0.8), rgba(197, 180, 180, 0.4), rgba(36, 104, 66, 0.4)), url(/images/Rainydays.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 25px;
-    transition: transform 0.3s; /* Add a transition effect */
+    transition: transform 0.3s; 
   }
 
   .card-container {
-    margin-top: 90px; /* Ensure the container clips any overflow */
+    margin-top: 90px; 
   }
 }
