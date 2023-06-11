@@ -6,65 +6,25 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+To start the project off, i checked out a few different portfolio's to see if i could get some inspiration. I found a couple of portfolio's that i liked, but still wanted to make it my own, and not copy someone else. For the design i started up figma and went for a design, but i felt that it was very simple and way too friendly, so i decided to completely change it into something more ''risky'' and more visually interesting. for the hero-section as i called it, i wanted a picture of my self, that was one thing i liked from a lot of different portfolio's i looked at, so i decided to go for that as well. Besides that i kept it simple with some text beside, and to finish off i threw in a little animation just to make it more ''lively''.
 
-You can add some bullet points if you'd like to:
+For the project section i had a clear vision of how i wanted it to be after a lot of thinking and re-doing, and i am quite happy with the turnout in the end. I really like the hover effect where you switch up the visual content when hovering, so i was 100% certain that was the style i wanted to go for. It took me quite a long time to make the image and container fit the image inside the way i wanted to, and also make sure it flexed in the right way. I decided to throw in some orange on the ''cta-buttons'', this was not in the coolors palette i got, but i thought it looked nice with the colors i had already.
 
-- List item 1
-- List item 2
-- List item 3
+The about section i kept very simple and clean, i did not want to mess with it alot because i want to make it easy to read and focus on. Not much to say here, i went for a title with a little extra css to make it somewhat interesting, but that's about it.
 
-## Built With
+For my contact section i kept it very simple too, i just wanted to throw in my contact info so people can get in contact with me easily, incase they like my work and have any questions. For later i want to fix my portfolio over time and make it look very good. I am happy with it now, but know i can fix alot of details and put more effort in to make it look top notch!
 
-You can list a the tech stack that you've used over here
+Referances: 
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
-
-## Getting Started
-
-### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
-
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+https://alvarotrigo.com/blog/web-developer-portfolio-examples/
+google.com
+figma.com
+youtube.com
 
 ## Contact
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
+(https://github.com/Haakonjohansenn)
 
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+(https://www.linkedin.com/in/h%C3%A5kon-johansen-673937249/)
