@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-haakon",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "portfolio-2-haakon"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "haakon",
+  "license": "ISC"
+}
